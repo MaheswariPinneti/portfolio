@@ -379,3 +379,218 @@ behavior:'smooth'
 </body>
 </html>
 
+portfolio.css
+
+transition: .5s;
+}
+.sec4 .container .box:hover img{
+transform: scale(1);
+}
+/*----!our latest work section-----*/
+/*-------our testimonial section---------*/
+.sec5{
+position: relative;
+height: auto;
+width: 100%;
+padding: 8rem;
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+flex-direction: column;
+background: rgb(238, 238, 238);
+overflow:hidden ;
+}
+.sec5 .container{
+position: relative;
+width: 90%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 5rem;
+flex-wrap: wrap;
+}
+.sec5 .head{
+font-size: 5rem;
+text-transform: uppercase;
+color: rgb(72, 117, 241);
+}
+.sec5 .info{
+font-size: 1.5rem;
+}
+.sec5 .container .box{
+max-width: 45%;
+margin: 2rem;
+padding: 3rem 2rem;
+background:rgb(72, 117, 241) ;
+font-size: 1.6rem;
+color: #fff;
+}
+.sec5 .container .box .lower{
+width: 100%;
+text-align: right;
+margin-top: 3rem;
+}
+/*-------our testimonial section---------*/
+/*------contact Me section-----------*/
+.sec6{
+position: relative;
+height: auto;
+width: 100%;
+padding: 5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background: #000;
+}
+.sec6 .head{
+color: #fff;
+font-size: 5rem;
+}
+.sec6 .info{
+color: #fff;
+font-size: 1.4rem;
+}
+.sec6 .container{
+display: flex;
+width: 90%;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+}
+.sec6 .container .box{
+max-width: 50%;
+margin: 2rem;
+color: #fff;
+}
+.sec6 .container .box1 h2{
+font-size: 2rem;
+}
+.sec6 .container .box1 .book{
+margin: 2rem 0;
+}
+.sec6 .container .box1 .book .page1 i{
+color: rgb(126, 158, 247);
+font-size: 2rem;
+margin-right: 1rem;
+}
+.sec6 .container .box1 .book .page1 span{
+font-size: 2rem;
+}
+.sec6 .container .box1 .book .page2{
+text-align:center;
+}
+.sec6 .container .box2{
+width: 60rem;
+}
+.sec6 .container .box2 form{
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+.sec6 .container .box2 form input{
+width: 100%;
+height: 3rem;
+border: none;
+outline: none;
+background: none;
+background: #333;
+margin: 1rem;
+text-align: center;
+color: #777;
+}
+.sec6 .container .box2 form .message{
+height: 10rem;
+}
+.sec6 .container .box2 form button{
+background: none;
+outline: none;
+border: none;
+background:rgb(95, 121, 238);
+color: #fff;
+padding: 2rem 3rem;
+}
+.sec6 .container .box2 form h2{
+font-size: 2rem;
+}
+/*------!contact Me section-----------*/
+/*-----media query works here------*/
+@media(max-width:991px){
+html{
+font-size: 55%;
+}
+.sec2 .container .content {
+max-width: 80%;
+}
+.sec2 .container .image1 {
+max-width: 100%;
+}
+.sec5 .container .box {
+max-width: 80%;
+}
+.sec3 .container{
+grid-template-columns: repeat(auto-fill,minmax(50%,1fr));
+grid-template-rows: minmax(auto,auto);
+}
+.sec4 .container{
+grid-template-columns: repeat(auto-fill,minmax(50%,1fr));
+grid-template-rows: minmax(auto,auto);
+}
+.sec2 .container .content {
+margin: 2rem 0;
+max-width: 50%;
+}
+}
+@media(max-width:768px){
+html{
+font-size: 45%;
+}
+}
+@media(max-width:650px){
+html{
+font-size: 45%;
+}
+.nav .menu{
+display: inline-block;
+}
+.nav .navBar ul {
+display: none;
+}
+.sec6 .container {
+flex-direction: column;
+}
+.sec6 .container .box {
+max-width: 100%;
+}
+.sec2 .container .content {
+max-width: 100%;
+}
+.sec5 .container {
+width: 100%;
+}
+.sec4 .head {
+font-size: 4rem;
+}
+.sec2 .container {
+width: 100%;
+}
+.sec2 .container .content {
+margin: 2rem 0;
+}
+.sec5 {
+padding: 2rem;
+}
+.sec4 .head {
+font-size: 3.5rem;
+}
+.nav.sticky {
+width: 95%;
+}
+.sec3 {
+padding: 1rem;
+}
+}
+
+
